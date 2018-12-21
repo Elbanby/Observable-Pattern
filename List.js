@@ -9,7 +9,7 @@ List.prototype.add = function(obj) {
     this._storage[this._count++] = obj;
     return this._storage;
   }
-  return "Queue is full, can't add any more items"
+  return "List is full, can't add any more items"
 }
 
 List.prototype.remove = function(obj) {
